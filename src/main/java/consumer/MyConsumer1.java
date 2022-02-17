@@ -17,7 +17,7 @@ public class MyConsumer1 {
 
         Map<String, Object> configs = new HashMap<>();
         // node1对应于192.168.100.101，windows的hosts文件中手动配置域名解析
-        configs.put(ConsumerConfig.BOOTSTRAP_SERVERS_CONFIG, "node1:9092");
+        configs.put(ConsumerConfig.BOOTSTRAP_SERVERS_CONFIG, "tenyun02:9092");
         // 使用常量代替手写的字符串，配置key的反序列化器
         configs.put(ConsumerConfig.KEY_DESERIALIZER_CLASS_CONFIG, IntegerDeserializer.class);
         // 配置value的反序列化器

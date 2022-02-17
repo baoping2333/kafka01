@@ -24,7 +24,7 @@ public class MyProducer1 {
         // 指定key的序列化类
         configs.put("key.serializer", IntegerSerializer.class);
         // 指定value的序列化类
-        configs.put("value.s erializer", StringSerializer.class);
+        configs.put("value.serializer", StringSerializer.class);
 
 //        configs.put("acks", "all");
 //        configs.put("reties", "3");
