@@ -54,6 +54,7 @@ public class MyConsumer1 {
             }
         });
 
+
         consumer.close();
 
     }
